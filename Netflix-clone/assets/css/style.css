@@ -11,39 +11,54 @@
 
 body{
     background: var(--preto);
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Arial', Times, serif;
     color: white;
 }
+header{
+    background-color: transparent;
+}
 
-header .container{
+.container-header{
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items:center;
     justify-content: space-between;
 }
-header .logo{
-    margin-left: 5px;
+.perfil{
+    height: 30px;
+    border: 2px solid greenyellow;
+    border-radius: 50%;
+    padding: 1px;
+}
+.logo{
+    margin: 10px;
+    width: 125px;
     color: var(--vermelho);
     font-family: Arial Black;
-    font-size: 40px;
 }
-header nav a{
+nav{
+    padding-top: 2px;
+}
+nav a{
     text-decoration: none;
     color: #AAA;
     margin-right: 10px;
+    margin-top: 5px;
 }
-header nav a:hover{
+nav a:hover{
     color: #fff;
 }
+/* .container{
+    margin-left: 20px;
+} */
 
 /* filme principal */
 .filme-principal{
     font-size: 16px;
     background:linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)100%), url('/Netflix-clone/assets/img/capa-house.jpg');
-    height: 400px;
-    width:90%;
-    background-size:cover;
-    
+    height: 600px;
+    width:100%;
+    background-size:cover;   
 
     display: flex;
     flex-direction: column;
@@ -52,15 +67,16 @@ header nav a:hover{
 }
 .filme-principal .titulo{
     margin-top: 15%;
-    font-size: 40px;
+    font-size: 50px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .filme-principal .descricao{
     margin-bottom: 40px;
     margin-top: 10px;
 }
-.container{
+.filme-principal .container{
     margin-left: 15px;
+    width: 70%;
 }
 .botao{
     background-color: rgba(0, 0, 0, .5);
@@ -80,4 +96,18 @@ header nav a:hover{
 }
 .botao i{
     margin-right: 8px;
+}
+
+/* carousel */
+.box-filme{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+.carrossel-filmes{
+    margin-top: 20px;
+}
+.secoes-carrossel{
+    margin-left: 10px;
+    margin-bottom: 5px;
 }
