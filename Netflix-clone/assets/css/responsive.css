@@ -8,32 +8,34 @@
         margin-bottom: 5px;
         width: 300px;
         height: 50px;
-
     }
     .filme-principal{
         height: 400px;
+    }
+    .filme-principal .container{
+        width: 100%;
     }
     .filme-principal .titulo{
         font-size: 35px;
     }
 }
-@media screen and(max-width:600px) {
+@media screen and (max-width:600px) {
     .filme-principal{
-        background-position-x: -200px;
+        background-position-x: -75px;
     }
 }
-@media screen and(min-width:601px) {
+@media screen and (min-width:601px) {
     .filme-principal{
         background-position-x: center;
     }
 }
-@media screen and(min-width: 1000px) {
-    .descricao{
+@media screen and (max-width: 1000px) {
+    .filme-principal .container{
         width: 50%;
     }
 }
-@media screen and(max-width: 1600px) {
-    .filme-principal{
+@media screen and (max-width: 1600px) {
+    .filme-principal .container{
         width: 50%;
     }
 }
