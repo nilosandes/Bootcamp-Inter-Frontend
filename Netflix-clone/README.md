@@ -6,13 +6,13 @@ O projeto tem um pouco de JQuery e o site já é responsivo para vários formato
 ## Alguns prints do projeto
 ### Primeira versão:
 #### Anexo 1
-![Print da tela principal](assets/img/print1.jpg)
+![Print da tela principal](assets/img/print1.png)
 
 #### Anexo 2
-![Print da tela principal](assets/img/print2.jpg)
+![Print da tela principal menor](assets/img/print2.PNG)
 
 #### Anexo 3
-![Print da tela principal](assets/img/print3.jpg)
+![Print da tela principal ainda menor](assets/img/print3.PNG)
 
 #### Anexo 4
-![Print da tela principal](assets/img/print4.jpg)
+![Print da tela principal largura mínima](assets/img/print4.PNG)
